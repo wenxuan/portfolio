@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XH4VD740G7"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-XH4VD740G7');
+	</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
+    <title>Wenxuan's Gallery</title>
+</head>
+
+<body class="gal">
+
+	<div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a class="current" href="gallery.html">Gallery</a></li>
+		  <li><a href="hobby.html">Hobby</a></li>
+        </ul>
+    </nav>
+
+    <header id="gal">
+		<div class='at-container'>
+			<h1 class='at-itemg'>My Gallery
+			</h1>
+		</div>
+    </header>
+
+	
+	<main id="main">
+		<div>
+	    <ul class="albums_list">
+			<li>
+			  <img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/1.jpg" class="tooltip" title=" me"/>
+			</li>
+		  
+			<li>
+			  <img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/2.jpg" class="tooltip" title="fourpeople "/>
+			</li>
+
+			<li>
+			  <img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall"  src="images/3.jpg" class="tooltip" title="mycat1 "/>
+			</li>
+
+			<li>
+				<img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/4.jpg" class="tooltip" title="mycat2 "/>
+			</li>
+
+			<li>
+				<img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/5.jpg" class="tooltip" title="DaVinci "/>
+			</li>
+
+			<li>
+				<img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/6.jpg" class="tooltip" title="pigeons"/>
+			</li>
+
+			<li>
+				<img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/7.jpg" class="tooltip" title="meandkk "/>
+			</li>
+
+			<li>
+				<img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/8.jpg" class="tooltip" title="beach "/>
+			</li>
+
+			<li>
+				<img onmouseover = "biggerPic(this)" onmouseout = "normalPic(this)" class="gall" src="images/9.jpg" class="tooltip" title="rabbit "/>
+			</li>
+
+
+		</ul>
+		</div>
+
+		  <div class="clear"></div>
+
+
+	</main>
+	
+    <footer>
+		<p>University of Michigan School of Information <br/>
+		  &copy; Wenxuan Zhang -Web Design 2021/03</p>
+	</footer>
+</body>
+</html>
+
+<script>
+function biggerPic(ele){
+	ele.style.height= "300px";
+	ele.style.width= "300px";
+	ele.style.filter="grayscale(1)";
+
+}
+
+function normalPic(ele){
+	ele.style.height= "200px";
+	ele.style.width= "200px";
+	ele.style.filter="grayscale(0)";
+
+}
+</script>
